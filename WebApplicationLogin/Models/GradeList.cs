@@ -11,8 +11,8 @@ namespace WebApplicationLogin.Models
         public int Value { get; set; }
         public string Name { get; set; }
 
-        public int GradeID { get; set; }
+        //public int GradeID { get; set; }
 
-        public virtual ICollection<Grade> Grade { get; set; }
+        //public virtual ICollection<Grade> Grade { get; set; }
     }
 }
